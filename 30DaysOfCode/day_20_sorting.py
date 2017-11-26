@@ -1,5 +1,8 @@
 #!/bin/python3
 
+# Day 20: Sorting
+# https://www.hackerrank.com/challenges/30-sorting/problem
+
 import sys
 
 class BubbleSort:
