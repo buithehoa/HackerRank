@@ -17,7 +17,6 @@ def max_hourglass_sum(matrix):
     HOURGLASS_SIZE = 3
 
     max_hourglass_sum = -1 * sys.maxsize
-
     for i in range(HOURGLASSES_PER_ROW):
         for j in range(HOURGLASSES_PER_ROW):
             hourglass_sum = 0
