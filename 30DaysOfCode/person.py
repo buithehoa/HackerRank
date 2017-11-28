@@ -1,3 +1,5 @@
+#!/bin/python3
+
 class Person:
 	def __init__(self, firstName, lastName, idNumber):
 		self.firstName = firstName
@@ -6,4 +8,3 @@ class Person:
 	def printPerson(self):
 		print("Name:", self.lastName + ",", self.firstName)
 		print("ID:", self.idNumber)
-        
