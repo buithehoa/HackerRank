@@ -8,8 +8,6 @@ class Difference:
 
         self.maximumDifference = self.__elements[len(self.__elements) - 1] - self.__elements[0]
 
-# End of Difference class
-
 if __name__ == "__main__":
     _ = input()
     a = [int(e) for e in input().split(' ')]
