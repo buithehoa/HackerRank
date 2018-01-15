@@ -10,9 +10,6 @@ def is_even(integer):
     return not is_even(integer)
 
 N = int(input().strip())
-
-if is_odd(N):
-elif is_even(N):
     if 2 <= N <= 5:
         print("Not Weird")
     elif 6 <= N <= 20:
